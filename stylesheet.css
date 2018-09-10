@@ -5,10 +5,23 @@
 body {
 	background-image: url(giphy.gif);
 	background-repeat:repeat;
-	background-size:contain;
+	background-size:cover;
 	background-position:center;
 	width:contain;
 	padding: 20px;
+}
+
+h3{
+	font-size: 25px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+p{
+	color: #70674d;
+	font-size: 15px;
 }
 
 .header{
@@ -46,7 +59,7 @@ body {
 }
 .leftcol{
 	float: left;
-	width: 20%
+	width: 30%
 }
 .row:after{
 	content:"";

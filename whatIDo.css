@@ -3,7 +3,12 @@
 }
 
 body {
-	background-color: grey;
+	background-image: url(Spaceflight-Students-Hold-Live-Earth-to-Space-Dialogue-with-NASA-Astronauts-2.jpg);
+	background-repeat:repeat;
+	background-size:cover;
+	background-position:top;
+	width:contain;
+	padding: 20px;
 }
 
 .header{
@@ -17,6 +22,19 @@ body {
 	color: #ffffff;
 	font-size: 40px;
 	text-align: center;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 27px;
+}
+
+p{
+	color: #70674d;
+	font-size: 25px;
 }
 
 .topnav{
@@ -42,13 +60,11 @@ body {
 .leftcol{
 	float: left;
 	width: 50%;
-	background-image: url(th.jpeg);
 }
 
 .rightcol{
 	float: left;
 	width: 50%;
-	background-image: url(LacrosseField.JPG);
 	padding-left: 20px;
 }
 
@@ -57,12 +73,13 @@ body {
 	display:table;
 	clear:both;
 }
-.card{
-	background-image: url(icey-background-4.jpg);
+.card1{
+	background-image: url(maxresdefault.jpg);
 	padding: 10px;
 	margin-top: 20px;
 	margin-bottom:20px;
 	margin-right: 20px;
+	background-position:top;
 }
 
 .footer{
@@ -71,11 +88,19 @@ body {
 }
 
 .image{
-	background-image:url(Philip-J-Fry.jpg);
-	width:520px;
-	height:650px;
+	background-image:url(boomboxCartel.jpg);
+	width:500px;
+	height:500px;
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
 }
 
+.image2{
+	background-image:url(LacrosseField.JPG);
+	width:630;
+	height:516;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
